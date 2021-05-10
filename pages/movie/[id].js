@@ -64,7 +64,7 @@ export async function getServerSideProps({ query, req }) {
     const response = await getMovieService(query.id)
     const film = await response
 
-    console.log("film= ", film)
+    // console.log("film= ", film)
 
     return { props: { film } }
 }

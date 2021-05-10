@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 import Button from '../Button'
 import Input from '../Input'
@@ -10,13 +10,16 @@ import { useRouter } from 'next/router'
 
 const Search = () => {
     const router = useRouter()
-    const { searchQuery } = router.query
-
-    const [searchInputValue, setSearchInputValue] = useState(searchQuery || '');
+    const { search } = router.query
+    const [searchInputValue, setSearchInputValue] = useState(search || '');
 
     function handleInputChange(event) {
         setSearchInputValue(event.target.value)
     }
+
+    useEffect(() => {
+        setSearchInputValue(search)
+    }, [search])
 
     return <div className={CM.search}>
         <h1 className={CM.searchTitle}>Find your movie</h1>
@@ -28,7 +31,7 @@ const Search = () => {
                 value={searchInputValue}
                 onChange={handleInputChange}
             />
-            <Link href={`/search/${searchInputValue}`}>
+            <Link href={`/?search=${searchInputValue}`}>
                 <a>
                     <Button
                         type="submit"
