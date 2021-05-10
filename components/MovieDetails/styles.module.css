@@ -1,0 +1,113 @@
+/* Movie Details */
+.movieDetails {
+  position: relative;
+  width: 100%;
+  background: url(/images/header-bg.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.movieDetails:before {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+
+   content: '';
+   background: rgba(0, 0, 0, 0.9);
+}
+
+.movieDetailsHeader {
+   position: relative;
+   display: flex;
+   align-items: center;
+   padding: 0 40px;
+}
+
+.movieDetailsLogo {
+   flex-grow: 1;
+}
+
+.movieDetailsLogo > img {
+   width: 150px;
+}
+
+.movieDetailsMagnifier {
+   width: 24px;
+   height: 24px;
+   background: url(/images/magnifier.png) no-repeat 0 0;
+   cursor: pointer;
+}
+
+.movieDetailsContainer {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 54px 54px;
+}
+
+.movieImage {
+  position: relative;
+  min-width: 280px;
+  min-height: 420px;
+  background: url(/images/no-image-available.png) no-repeat center 60px rgba(255, 255, 255, 0.9);
+}
+
+.movieImageImg {
+   display: block;
+   width: 280px;
+ }
+
+.movieData {
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 60px;
+}
+
+.movieName {
+  min-height: 68px;
+  margin-right: 20px;
+  font-size: 48px;
+  line-height: 50px;
+}
+
+.movieRating {
+  flex-grow: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8d8d8d;
+  border-radius: 60px;
+  width: 66px;
+  height: 66px;
+  font-size: 28px;
+  line-height: 30px;
+  color: #8bc861;
+}
+
+.movieGenre {
+  flex: 1 100%;
+  margin-top: 4px;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+.movieReleaseYear,
+.movieDuration {
+  margin-top: 32px;
+  font-size: 25px;
+  line-height: 27px;
+  color: #f65261;
+}
+
+.movieDuration {
+  padding-left: 36px;
+}
+
+.movieDescription {
+  flex: 1 1 100%;
+  padding: 34px 40px 0 0;
+  font-size: 18px;
+  line-height: 22px;
+}

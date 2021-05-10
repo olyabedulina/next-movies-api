@@ -1,0 +1,32 @@
+/* Page Not Found */
+
+.pageNotFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 240px;
+}
+
+.pageNotFoundTitle {
+    padding-top: 126px;
+    padding-bottom: 37px;
+    font-size: 40px;
+    line-height: 42px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.pageNotFoundLogo {
+    align-self: flex-start;
+    margin-left: 50px;
+}
+
+.pageNotFoundLogoImage {
+    width: 150px;
+}
+
+.pageNotFoundImage {
+    margin-bottom: 63px;
+}

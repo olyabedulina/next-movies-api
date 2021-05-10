@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components :: Input snapshots: Test :: Input type = "date" component 1`] = `
+<input
+  className="fieldInput input "
+  id="selectDate"
+  name="selectDate"
+  onChange={[Function]}
+  onKeyDown={[Function]}
+  placeholder="Select Date"
+  type="date"
+  value="20/03/1986"
+/>
+`;
+
+exports[`Components :: Input snapshots: Test :: Input type = "text" component 1`] = `
+<input
+  className="fieldInput input "
+  id="title"
+  name="title"
+  onChange={[Function]}
+  onKeyDown={[Function]}
+  placeholder="Title here"
+  type="text"
+  value={0}
+/>
+`;
+
+exports[`Components :: Input snapshots: Test :: Input type = "text" with children component 1`] = `
+<input
+  className="fieldInput input "
+  id="title"
+  name="title"
+  onChange={[Function]}
+  onKeyDown={[Function]}
+  placeholder="Title here"
+  type="text"
+  value={0}
+>
+  Text
+</input>
+`;
+
+exports[`Components :: Input snapshots: Test :: Input type = "text" with children component 2`] = `
+<input
+  className="fieldCheckbox input "
+  id="checkbox"
+  name="checkbox"
+  onChange={[Function]}
+  onKeyDown={[Function]}
+  placeholder="Select genre"
+  type="checkbox"
+  value={0}
+>
+  Checkbox
+</input>
+`;
+
+exports[`Components :: Input snapshots: Test :: Input type = "text" with children component 3`] = `
+<input
+  className="fieldText input "
+  id="text"
+  name="textInput"
+  onChange={[Function]}
+  onKeyDown={[Function]}
+  placeholder="Select title"
+  type="text"
+  value="Lorem Ipsum"
+>
+  OnChange input
+</input>
+`;

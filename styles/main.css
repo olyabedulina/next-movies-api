@@ -1,0 +1,19 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.app {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    width: 1200px;
+
+    color: #efefef;
+    background-color: #232323;
+}

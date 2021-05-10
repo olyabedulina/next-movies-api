@@ -1,0 +1,26 @@
+.input {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 0;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  padding: 16px 20px;
+  margin: 0;
+  font-size: 20px;
+  line-height: 20px;
+  background: #2e2e2e;
+  color: #fff;
+}
+
+/*input[type="date"]::-webkit-calendar-picker-indicator {*/
+/*  color: rgba(0, 0, 0, 0);*/
+/*  opacity: 1;*/
+/*  display: block;*/
+/*  background: url(./images/calendar.png) no-repeat 0 ;*/
+/*  width: 27px;*/
+/*  height: 24px;*/
+/*  border-width: thin;*/
+/*  outline: none;*/
+/*  cursor: pointer;*/
+/*}*/

@@ -1,0 +1,13 @@
+/* Footer */
+.footer {
+  flex: 1 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85px;
+  background-color: #424242;
+}
+
+.footer .logoImage {
+  width: 150px;
+}

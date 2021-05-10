@@ -1,0 +1,40 @@
+.button {
+  display: inline-block;
+  outline: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.kind-main {
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 56px;
+  font-size: 18px;
+  line-height: 19px;
+  background: #f65261;
+  color: #fff;
+}
+
+.kind-alt {
+  padding: 16px 56px;
+  border-radius: 6px;
+  font-size: 18px;
+  background-color: rgba(35, 35, 35, 0.3);
+  border: 1px solid #f65261;
+  color: #f65261;
+}
+
+.kind-aux {
+  padding: 16px 18px;
+  border-radius: 6px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #f65261;
+}

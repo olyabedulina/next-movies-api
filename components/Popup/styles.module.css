@@ -1,0 +1,47 @@
+.popup {
+  z-index: 1000;
+  position: absolute;
+  top: 7px;
+  right: 12px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 188px;
+  padding: 23px 0 10px;
+  background: #232323;
+  box-shadow: 0 0 22px 1px rgba(0, 0, 0, 1);
+}
+
+.popupLink,
+.popupLink:visited,
+.popupLink:hover {
+  display: block;
+  padding: 10px 25px;
+  font-size: 17px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popupLink:hover {
+  background-color: #f65261;
+}
+
+
+.popupClose,
+.popupClose:visited,
+.popupClose:hover {
+  position: absolute;
+  display: inline-block;
+  top: 5px;
+  right: 9px;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popupClose:hover {
+  color: rgba(255, 255, 255, 0.7);
+}

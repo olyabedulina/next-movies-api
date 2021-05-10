@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components :: Checkbox snapshots: Test :: Checkbox component 1`] = `
+<label>
+  <input
+    checked={true}
+    className=" checkbox"
+    name=""
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span
+    className="checkboxText"
+  >
+    Test name
+  </span>
+</label>
+`;
+
+exports[`Components :: Checkbox snapshots: Test :: Checkbox component 2`] = `
+<label>
+  <input
+    checked={false}
+    className=" checkbox"
+    name=""
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span
+    className="checkboxText"
+  >
+    Checkbox
+  </span>
+</label>
+`;
+
+exports[`Components :: Checkbox snapshots: Test :: Checkbox component 3`] = `
+<label>
+  <input
+    checked={false}
+    className=" checkbox"
+    name=""
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span
+    className="checkboxText"
+  />
+</label>
+`;

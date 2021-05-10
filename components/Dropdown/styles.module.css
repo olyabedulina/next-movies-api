@@ -1,0 +1,81 @@
+.dropdown {
+  z-index: 1000;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.dropdownInput {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 55px;
+  border-radius: 6px;
+  background-color: #2e2e2e;
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+  box-shadow: 0 0 4px 1px #1f1f1f;
+}
+
+.modalField .dropdownInput {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dropdownPlaceholder {
+  flex-grow: 1;
+  padding: 16px 17px;
+}
+
+.dropdownInputButton {
+  position: relative;
+  width: 40px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.dropdownInputButtonUp:after {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  content: '';
+  border: 5px solid transparent;
+  border-top: 7px solid #f65261;
+  transform: translateY(-25%);
+}
+
+.dropdownInputButtonDown:after {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  width: 0;
+  content: '';
+  border: 5px solid transparent;
+  border-bottom: 7px solid #f65261;
+  transform: translateY(-75%);
+}
+
+.dropdownList {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 14px 17px;
+  border-radius: 6px;
+  box-shadow: 0 5px 8px 3px #1f1f1f;
+  background-color: #222;
+
+  overflow: auto;
+  max-height: 185px;
+}
+
+.dropdownListItem {
+  padding-bottom: 20px;
+}
+
+.dropdownListItem:last-child {
+  padding-bottom: 0;
+}
